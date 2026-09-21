@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #007360;
+  --color-brand-secondary: #43AB98;
+  --color-text-dark: #333333;
+  --color-bg-warm: #FFFBF3;
+  --color-white: #FFFFFF;
+
+  --color-accent-orange: #FF9F00;
+  --color-accent-yellow: #FFDE00;
+  --color-secondary-green-dark: #008C45;
+  --color-secondary-green-light: #38B942;
+  --color-secondary-blue: #0057A9;
+  --color-secondary-gold: #FFC936;
+
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+:root {
+  --color-brand-primary: #007360;
+  --color-brand-secondary: #43AB98;
+  --color-text-dark: #333333;
+  --color-bg-warm: #FFFBF3;
+  --color-white: #FFFFFF;
+
+  --color-accent-orange: #FF9F00;
+  --color-accent-yellow: #FFDE00;
+  --color-secondary-green-dark: #008C45;
+  --color-secondary-green-light: #38B942;
+  --color-secondary-blue: #0057A9;
+  --color-secondary-gold: #FFC936;
+
+  --font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-white);
+  color: var(--color-text-dark);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-weight: 800;
+  color: var(--color-text-dark);
+}
+
+h2 {
+  font-weight: 700;
+  color: var(--color-text-dark);
+}
+
+h3 {
+  font-weight: 500;
+  color: var(--color-text-dark);
+}
+
+p, span, li, input, textarea, select {
+  font-weight: 400;
+}

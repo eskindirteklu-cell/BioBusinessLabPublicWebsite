@@ -1,0 +1,6 @@
+{
+  "name": "BioBusiness Lab",
+  "description": "Erasmus+-funded digital learning platform under the project 'The BioBusiness Catalyst: Empowering Entrepreneurs for a Sustainable Bioeconomy'.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
